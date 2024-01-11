@@ -1,5 +1,5 @@
 {
-    "name": "@shopify/flash-list",
+    "name": "@thasian/flash-list",
     "version": "1.6.3",
     "keywords": [
         "react-native",
@@ -25,6 +25,8 @@
     "author": "shopify",
     "license": "MIT",
     "homepage": "https://shopify.github.io/flash-list/",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "scripts": {
         "up": "bundle install && yarn fixture-up && yarn e2e-up && yarn build",
         "fixture-web-up": "cd fixture/web-app && yarn && cd ../../",
